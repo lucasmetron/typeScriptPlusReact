@@ -242,4 +242,15 @@ let nameB: symbol = Symbol('b')
 console.log(nameA == nameB)
 console.log(nameA === nameB)
 
+interface homem {
+    nome:string
+    idade:number
+    sexo?: 'feminino'|'masculino'
+}
 
+let testeArray: homem[] = [
+    {nome:"lucas", idade:25, sexo:'masculino'},
+    {nome:"lais", idade:23, },
+]
+
+console.log(testeArray)

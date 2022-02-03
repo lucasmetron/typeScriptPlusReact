@@ -145,3 +145,8 @@ var nameA = Symbol('a');
 var nameB = Symbol('b');
 console.log(nameA == nameB);
 console.log(nameA === nameB);
+var testeArray = [
+    { nome: "lucas", idade: 25, sexo: 'masculino' },
+    { nome: "lais", idade: 23 },
+];
+console.log(testeArray);
