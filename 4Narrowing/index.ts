@@ -100,8 +100,9 @@ showDogDetails(turca)
 showDogDetails(bob)
 
 // 5 - Desafio
+type Review = number | boolean
 
-function review(stars: number | boolean){
+function review(stars: Review){
     if(typeof stars === 'number'){
         if(stars === 1){
             console.log(`Obrigado por seu feedback de nota ${stars}, o que podemos melhorar?`)

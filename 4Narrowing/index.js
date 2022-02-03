@@ -100,7 +100,6 @@ function showDogDetails(dog) {
 }
 showDogDetails(turca);
 showDogDetails(bob);
-// 5 - Desafio
 function review(stars) {
     if (typeof stars === 'number') {
         if (stars === 1) {
